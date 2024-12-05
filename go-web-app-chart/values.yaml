@@ -19,3 +19,9 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+serviceAccount:
+  create: false
+
+autoscaling:
+  enabled: false
